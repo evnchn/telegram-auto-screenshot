@@ -3,6 +3,8 @@ Automatically take screenshot of the URL when Telegram message received
 
 ## Backstory
 
+![Scam message](markdown_media/scam_message.jpg)
+
 There's a scam going on in WhatsApp about someone claiming to have "looked at your CV" and "would like to offer you a job". 
 
 In reality, it consists of:
@@ -18,3 +20,18 @@ In fact, with this bot, just as I made enough money as the minimum "pay them mon
 
 ## Expected message format
 
+Message input: 
+
+![Expected input](markdown_media/input.png)
+
+Message output: 
+
+![Expected output](markdown_media/output.png)
+
+## Note
+
+The code is made to run as a Pyrobud module. It is a modified version of the `example.py`. 
+
+It was made in a hurry and as a proof-of-concept. 
+
+It is also a screw-you as a programmer towards scammers. I did got ~$HKD80 from them using this tool. 
